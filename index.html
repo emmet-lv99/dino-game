@@ -1,3 +1,4 @@
+<!-- 29:23 땅 자동 움직임, 점수 자동 올라감까지 됨 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +10,11 @@
   <title>Dino game</title>
 </head>
   <body>
-  <div class="world">
-    <div class="score">0</div>
-    <div class="start-screen">Press Any Key To Start</div>
-    <img src="imgs/ground.png" alt="ground"  class="ground">
-    <img src="imgs/ground.png" alt="ground"  class="ground">
+  <div class="world" data-world>
+    <div class="score" data-score>0</div>
+    <div class="start-screen" data-start-screen>Press Any Key To Start</div>
+    <img src="imgs/ground.png" alt="ground"  class="ground" data-ground>
+    <img src="imgs/ground.png" alt="ground"  class="ground" data-ground>
     <img src="imgs/dino-stationary.png" alt="dino" class="dino">
   </div> 
 </body>
